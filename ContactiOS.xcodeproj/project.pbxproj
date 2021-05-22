@@ -25,12 +25,6 @@
 		886D192D21ED1002009EF1A3 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886D192821ED1002009EF1A3 /* HomeRouter.swift */; };
 		886D192E21ED1002009EF1A3 /* HomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886D192921ED1002009EF1A3 /* HomeProtocols.swift */; };
 		886D192F21ED1002009EF1A3 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886D192A21ED1002009EF1A3 /* HomeInteractor.swift */; };
-		88CA6E3021F8545800071F9F /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CA6E2F21F8545800071F9F /* Contact.swift */; };
-		88CA6E3721F8B75000071F9F /* ContactDetailTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CA6E3221F8B75000071F9F /* ContactDetailTableController.swift */; };
-		88CA6E3821F8B75000071F9F /* ContactDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CA6E3321F8B75000071F9F /* ContactDetailPresenter.swift */; };
-		88CA6E3921F8B75000071F9F /* ContactDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CA6E3421F8B75000071F9F /* ContactDetailRouter.swift */; };
-		88CA6E3A21F8B75000071F9F /* ContactDetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CA6E3521F8B75000071F9F /* ContactDetailProtocols.swift */; };
-		88CA6E3B21F8B75000071F9F /* ContactDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CA6E3621F8B75000071F9F /* ContactDetailInteractor.swift */; };
 		88F6F1B722245B170022A433 /* HomeComponent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88F6F1B522245B170022A433 /* HomeComponent.xib */; };
 		88F6F1B822245B170022A433 /* HomeComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F6F1B622245B170022A433 /* HomeComponent.swift */; };
 		88F6F1BE22245C650022A433 /* HomeV2TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F6F1B922245C650022A433 /* HomeV2TableController.swift */; };
@@ -38,6 +32,12 @@
 		88F6F1C022245C650022A433 /* HomeV2Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F6F1BB22245C650022A433 /* HomeV2Router.swift */; };
 		88F6F1C122245C650022A433 /* HomeV2Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F6F1BC22245C650022A433 /* HomeV2Protocols.swift */; };
 		88F6F1C222245C650022A433 /* HomeV2Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F6F1BD22245C650022A433 /* HomeV2Interactor.swift */; };
+		C99C59E926599BD3003260BD /* ContactDetailTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C59E426599BD3003260BD /* ContactDetailTableController.swift */; };
+		C99C59EA26599BD3003260BD /* ContactDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C59E526599BD3003260BD /* ContactDetailRouter.swift */; };
+		C99C59EB26599BD3003260BD /* ContactDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C59E626599BD3003260BD /* ContactDetailPresenter.swift */; };
+		C99C59EC26599BD3003260BD /* ContactDetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C59E726599BD3003260BD /* ContactDetailProtocols.swift */; };
+		C99C59ED26599BD3003260BD /* ContactDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C59E826599BD3003260BD /* ContactDetailInteractor.swift */; };
+		C99C59EF26599BF2003260BD /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C59EE26599BF2003260BD /* Contact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,12 +61,6 @@
 		886D192821ED1002009EF1A3 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
 		886D192921ED1002009EF1A3 /* HomeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProtocols.swift; sourceTree = "<group>"; };
 		886D192A21ED1002009EF1A3 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
-		88CA6E2F21F8545800071F9F /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Contact.swift; path = ../../../../../Projects/contact/ContactiOS/ContactiOS/Models/Contact.swift; sourceTree = "<group>"; };
-		88CA6E3221F8B75000071F9F /* ContactDetailTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContactDetailTableController.swift; path = ../../../../../../Projects/contact/ContactiOS/ContactiOS/UI/ContactDetail/ContactDetailTableController.swift; sourceTree = "<group>"; };
-		88CA6E3321F8B75000071F9F /* ContactDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContactDetailPresenter.swift; path = ../../../../../../Projects/contact/ContactiOS/ContactiOS/UI/ContactDetail/ContactDetailPresenter.swift; sourceTree = "<group>"; };
-		88CA6E3421F8B75000071F9F /* ContactDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContactDetailRouter.swift; path = ../../../../../../Projects/contact/ContactiOS/ContactiOS/UI/ContactDetail/ContactDetailRouter.swift; sourceTree = "<group>"; };
-		88CA6E3521F8B75000071F9F /* ContactDetailProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContactDetailProtocols.swift; path = ../../../../../../Projects/contact/ContactiOS/ContactiOS/UI/ContactDetail/ContactDetailProtocols.swift; sourceTree = "<group>"; };
-		88CA6E3621F8B75000071F9F /* ContactDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContactDetailInteractor.swift; path = ../../../../../../Projects/contact/ContactiOS/ContactiOS/UI/ContactDetail/ContactDetailInteractor.swift; sourceTree = "<group>"; };
 		88F6F1B522245B170022A433 /* HomeComponent.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeComponent.xib; sourceTree = "<group>"; };
 		88F6F1B622245B170022A433 /* HomeComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeComponent.swift; sourceTree = "<group>"; };
 		88F6F1B922245C650022A433 /* HomeV2TableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeV2TableController.swift; sourceTree = "<group>"; };
@@ -74,6 +68,12 @@
 		88F6F1BB22245C650022A433 /* HomeV2Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeV2Router.swift; sourceTree = "<group>"; };
 		88F6F1BC22245C650022A433 /* HomeV2Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeV2Protocols.swift; sourceTree = "<group>"; };
 		88F6F1BD22245C650022A433 /* HomeV2Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeV2Interactor.swift; sourceTree = "<group>"; };
+		C99C59E426599BD3003260BD /* ContactDetailTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailTableController.swift; sourceTree = "<group>"; };
+		C99C59E526599BD3003260BD /* ContactDetailRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailRouter.swift; sourceTree = "<group>"; };
+		C99C59E626599BD3003260BD /* ContactDetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailPresenter.swift; sourceTree = "<group>"; };
+		C99C59E726599BD3003260BD /* ContactDetailProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailProtocols.swift; sourceTree = "<group>"; };
+		C99C59E826599BD3003260BD /* ContactDetailInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailInteractor.swift; sourceTree = "<group>"; };
+		C99C59EE26599BF2003260BD /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,7 +183,7 @@
 		886D192421ED0FDF009EF1A3 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				88CA6E3121F8B73900071F9F /* ContactDetail */,
+				C99C59E326599BD3003260BD /* ContactDetail */,
 				886D192521ED0FE4009EF1A3 /* Home */,
 				8845BA0B222321C2009F1A0B /* Home V2 */,
 			);
@@ -205,19 +205,19 @@
 		88CA6E2E21F8544600071F9F /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				88CA6E2F21F8545800071F9F /* Contact.swift */,
+				C99C59EE26599BF2003260BD /* Contact.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		88CA6E3121F8B73900071F9F /* ContactDetail */ = {
+		C99C59E326599BD3003260BD /* ContactDetail */ = {
 			isa = PBXGroup;
 			children = (
-				88CA6E3621F8B75000071F9F /* ContactDetailInteractor.swift */,
-				88CA6E3321F8B75000071F9F /* ContactDetailPresenter.swift */,
-				88CA6E3521F8B75000071F9F /* ContactDetailProtocols.swift */,
-				88CA6E3421F8B75000071F9F /* ContactDetailRouter.swift */,
-				88CA6E3221F8B75000071F9F /* ContactDetailTableController.swift */,
+				C99C59E826599BD3003260BD /* ContactDetailInteractor.swift */,
+				C99C59E626599BD3003260BD /* ContactDetailPresenter.swift */,
+				C99C59E726599BD3003260BD /* ContactDetailProtocols.swift */,
+				C99C59E526599BD3003260BD /* ContactDetailRouter.swift */,
+				C99C59E426599BD3003260BD /* ContactDetailTableController.swift */,
 			);
 			path = ContactDetail;
 			sourceTree = "<group>";
@@ -293,9 +293,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C99C59EB26599BD3003260BD /* ContactDetailPresenter.swift in Sources */,
 				8845BA1422232257009F1A0B /* ViperBaseRouter.swift in Sources */,
 				88F6F1C022245C650022A433 /* HomeV2Router.swift in Sources */,
-				88CA6E3721F8B75000071F9F /* ContactDetailTableController.swift in Sources */,
 				886D192C21ED1002009EF1A3 /* HomePresenter.swift in Sources */,
 				88F6F1BE22245C650022A433 /* HomeV2TableController.swift in Sources */,
 				88F6F1C222245C650022A433 /* HomeV2Interactor.swift in Sources */,
@@ -303,24 +303,24 @@
 				8845BA222223267D009F1A0B /* TableCell.swift in Sources */,
 				8845BA1F2223261E009F1A0B /* TableRowModel.swift in Sources */,
 				886D192E21ED1002009EF1A3 /* HomeProtocols.swift in Sources */,
+				C99C59ED26599BD3003260BD /* ContactDetailInteractor.swift in Sources */,
+				C99C59EC26599BD3003260BD /* ContactDetailProtocols.swift in Sources */,
 				886D192D21ED1002009EF1A3 /* HomeRouter.swift in Sources */,
 				886D192F21ED1002009EF1A3 /* HomeInteractor.swift in Sources */,
 				886D191221ED0FB5009EF1A3 /* AppDelegate.swift in Sources */,
-				88CA6E3B21F8B75000071F9F /* ContactDetailInteractor.swift in Sources */,
 				8845BA192223259E009F1A0B /* TableModel.swift in Sources */,
 				88F6F1BF22245C650022A433 /* HomeV2Presenter.swift in Sources */,
 				886D192B21ED1002009EF1A3 /* HomeTableController.swift in Sources */,
 				8845BA1522232257009F1A0B /* ViperBaseProtocols.swift in Sources */,
+				C99C59E926599BD3003260BD /* ContactDetailTableController.swift in Sources */,
+				C99C59EF26599BF2003260BD /* Contact.swift in Sources */,
 				8845BA1322232257009F1A0B /* ViperBasePresenter.swift in Sources */,
 				8845BA1222232257009F1A0B /* ViperBaseTableController.swift in Sources */,
 				8845BA2422232900009F1A0B /* ComponentModel.swift in Sources */,
 				88F6F1B822245B170022A433 /* HomeComponent.swift in Sources */,
 				8845BA1C222325D5009F1A0B /* TableSectionModel.swift in Sources */,
 				8845BA1622232257009F1A0B /* ViperBaseInteractor.swift in Sources */,
-				88CA6E3821F8B75000071F9F /* ContactDetailPresenter.swift in Sources */,
-				88CA6E3921F8B75000071F9F /* ContactDetailRouter.swift in Sources */,
-				88CA6E3021F8545800071F9F /* Contact.swift in Sources */,
-				88CA6E3A21F8B75000071F9F /* ContactDetailProtocols.swift in Sources */,
+				C99C59EA26599BD3003260BD /* ContactDetailRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
